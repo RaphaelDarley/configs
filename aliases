@@ -1,0 +1,47 @@
+## ALIASES
+alias hy="history"
+
+alias cw="cd /var/www"
+alias ch="cd /var/www/html"
+alias ce="cd /etc"
+alias cs="cd /etc/apache2/sites-available"
+alias cu="cd .."
+alias ca="cd /APPS"
+alias ce="cd /etc"
+alias eb="exec bash"
+
+alias c="clear"
+
+alias ba="source bin/activate"
+alias d="deactivate"
+alias sad="sudo apt update"
+alias sag="sudo apt upgrade"
+
+alias g="git status"
+alias ga="git add ."
+alias gc="git commit"
+alias gp="git push"
+alias gpl="git pull"
+alias gl="git log"
+alias gb="git branch"
+alias gcb="git checkout -b "
+alias gcm="git checkout master"
+alias gr="git reflog"
+alias gvi="vim .gitignore"
+alias gd="git diff"
+alias gco="git checkout "
+
+alias sta="sudo tail /var/log/apache2/error.log"
+
+alias sc755="sudo chmod -R 755 ."
+alias sc775="sudo chmod -R 775 ."
+
+alias uh="cut -d: -f1,3 /etc/passwd | egrep ':[0-9]{4}$' | cut -d: -f1 | sort"
+alias us="cut -d: -f1 /etc/passwd | sort"
+alias u="cat /etc/passwd"
+
+alias l='ls -al'
+
+alias vb="vim ~/.bashrc +$"
+
+alias sjfu="sudo journalctl -f -u "
